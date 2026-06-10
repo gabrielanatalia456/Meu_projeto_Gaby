@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</div>
+    <h1>inscrições da robótica</h1>
+
+    <form action="inscricoes_robotica.html" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="curso">Curso:</label>
+        <input type="text" id="curso" name="curso" required><br><br>
+
+        <label for="serie">Série/Ano:</label>
+        <input type="text" id="serie" name="serie" required><br><br>
+
+        <label for="Modalidade de participação">Modalidade de participação:</label>
+        <input type="radio" id="olimpiada" name="modalidade" value="olimpiada" required>
+        <label for="olimpiada">Olimpíada</label>
+        <input type="radio" id="projeto" name="modalidade" value="projeto" required>
+        <label for="projeto">Projeto</label><br><br>
+
+        <label for="nome_equipe">Nome da equipe:</label>
+        <input type="text" id="nome_equipe" name="nome_equipe" required><br><br>
+
+        <label for="quantidade">Quantidade de integrantes:</label>
+        <input type="number" id="quantidade" name="quantidade" min="1" max="5" required><br><br>
+
+        <label for="integrantes">Lista de integrantes:</label>
+        <textarea id="integrantes" name="integrantes" required></textarea><br><br>
+
+        <label for="equipamentos">Necessita de equipamentos especiais?</label>
+        <input type="radio" id="equipamentos_sim" name="equipamentos" value="sim" required>
+        <label for="equipamentos_sim">Sim</label>
+        <input type="radio" id="equipamentos_nao" name="equipamentos" value="nao" required>
+        <label for="equipamentos_nao">Não</label><br><br>
+
+        <label for="proposta">Upload de proposta de projeto:</label>
+        <input type="file" id="proposta" name="proposta" accept=".pdf" required><br><br>
+
+        <label for="aceite_termos">Aceito todos os termos:</label>
+        <input type="checkbox" id="aceite_termos" name="aceite_termos" required><br><br>
+
+        <input type="submit" value="Cadastrar">
+
+        <ul>
+        <li><a href="atendimento.html">Página de Atendimento</a></li>
+        </ul>
+        <ul>
+        <li><a href="inscricoes.html">Página de Inscrições</a></li>
+        </ul>
+        <ul>
+        <li><a href="index.html">Página Inicial</a></li>    
+   </body>
+</html>
