@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</div>
+    <h1>inscrições </h1>
+
+    <form action="inscricoes.html" method="post">
+        <h2>Dados Pessoais</h2>
+        <label for="nome_completo">Nome Completo:</label>
+        <input type="text" id="nome_completo" name="nome_completo" required><br><br>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required><br><br>
+
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+
+        <h2>Endereço</h2>
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" name="rua" required><br><br>
+
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" required><br><br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required><br><br>
+        
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required><br><br>
+
+        <label for="curso">Curso Desejado:</label>
+        <select id="curso" name="curso" required>
+            <option value="">Selecione</option>
+            <option value="informatica">Curso 1</informatica option>
+            <option value="administração">Curso 2</administração option>
+            <option value="letras">Curso 3</letras option>
+            <option value="psicologia">Curso 4</psicologia option>
+        </select><br><br>
+
+        <label for="turno">Turno:</label>
+        <input type="radio" id="turno_manha" name="turno" value="manha" required>
+        <label for="turno_manha">Manhã</label>
+        <input type="radio" id="turno_tarde" name="turno" value="tarde" required>
+        <label for="turno_tarde">Tarde</label>
+        <input type="radio" id="turno_noite" name="turno" value="noite" required>
+        <label for="turno_noite">Noite</label><br><br>
+
+        <label for="Já possui experiência na área?">Já possui experiência na área?</label>
+        <input type="radio" id="experiencia_sim" name="experiencia" value="sim" required>
+        <label for="experiencia_sim">Sim</label>
+        <input type="radio" id="experiencia_nao" name="experiencia" value="nao" required>
+        <label for="experiencia_nao">Não</label><br><br>
+
+        <label for="Áreas de interesse">Áreas de interesse:</label><br>
+        <input type="checkbox" id="area1" name="areas_interesse" value="area1">
+        <label for="area1">Área 1</label>
+        <input type="checkbox" id="area2" name="areas_interesse" value="area2">
+        <label for="area2">Área 2</label>
+        <input type="checkbox" id="area3" name="areas_interesse" value="area3">
+        <label for="area3">Área 3</label><br><br>
+
+        <label for="upload_documento">Upload de documento (RG ou CPF):</label>
+        <input type="file" id="upload_documento" name="upload_documento" accept=".pdf,.jpg,.png" required><br><br>
+
+        <label for="campo de observações">Campo de observações:</label>
+        <textarea id="campo_observacoes" name="campo_observacoes"></textarea><br><br>
+
+
+        <label for="botão de envio">Aceito todos os termos:</label>
+        <input type="checkbox" id="aceite_termos" name="aceite_termos" required><br><br>
+
+        <input type="submit" value="Cadastrar">
+</body>
+</html>
+
